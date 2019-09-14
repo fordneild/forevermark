@@ -1,0 +1,1124 @@
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet" href="https://use.typekit.net/bhx2xvp.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="https://www.theatlantic.com/static/atlanticads/js/inview/in-view.min.js"></script>
+
+<style>
+  @font-face {
+    font-family: 'Americana';
+    src: url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/Americana.eot');
+    src: url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/Americana.eot?#iefix') format('embedded-opentype'),
+    url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/Americana.woff2') format('woff2'),
+    url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/Americana.woff') format('woff');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'StyreneA';
+    src: url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/StyreneA-Medium-Web.eot');
+    src: url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/StyreneA-Medium-Web.eot?#iefix') format('embedded-opentype'),
+    url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/StyreneA-Medium-Web.woff2') format('woff2'),
+    url('https://www.theatlantic.com/static/atlanticads/fonts/forevermark/StyreneA-Medium-Web.woff') format('woff');
+    font-weight: 500;
+  }
+
+  #article-body {
+    margin-top: 10vw;
+  }
+
+  .c-original-disclaimer__inner {
+    width: 100%;
+  }
+
+  .body {
+    background-color: #F6F1F1;
+    width: 100%;
+  }
+
+  .header-slide__header {
+    font-size: 62px;
+    font-family: "Americana";
+    line-height: 1.2;
+  }
+
+  .header-slide__subheader {
+    font-family: "StyreneA";
+    font-size: 16px;
+    -webkit-margin-after: -20px;
+  }
+
+
+  .pt-1 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1400px;
+  }
+
+  .intro__header {
+    height: auto;
+    width: 100%;
+    background-color: #F3E8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* DELETE THIS MARGIN TOP */
+    margin-top: 150px;
+  }
+
+  .intro__header--left {
+    width: 49%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .intro__header--right {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro__header--right__image--container {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .intro__header--right__image {
+    width: 100%;
+  }
+
+
+  .body-text--container {
+    width: 60%;
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 40px 0px;
+  }
+
+  .gone {
+    display: inline;
+  }
+
+
+
+  .body-text {
+    font-family: "adelle";
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .intro-text {
+    font-family: "StyreneA", "Arial";
+  }
+
+  .body-text--intro {
+    font-family: "StyreneA", "Arial";
+    text-transform: uppercase;
+  }
+
+  .pt1__ch1__header {
+    width: 100%;
+    height: auto;
+    background-color: #F3E8E8;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  .pt1__ch1__header--half {
+    width: 49%;
+    position: relative;
+  }
+
+
+  .pt1__ch1__header__text {
+    position: absolute;
+    left: 7%;
+    top: 18%;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .pt1__ch3 .pt1__ch1__header__text {
+    left: 15%;
+  }
+
+  .pt1__ch1__header__image1--container {
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 15%;
+  }
+
+
+  .pt1__ch1__header__image1 {
+    width: 100%;
+  }
+
+  .pt1__ch1__header__image2--container {
+    width: 55%;
+    margin-top: 43px;
+  }
+
+
+  .pt1__ch1__header__image2 {
+    width: 100%;
+  }
+
+  .pt1__ch1__header__caption {
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+
+    font-size: .85vw;
+    font-stretch: 200%;
+    font-family: "StyreneA", "Arial";
+    line-height: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 80px;
+  }
+
+
+
+  .pt1__ch1__ad {
+    background-image: url("https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-ad-1.jpg");
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 17%;
+    background-size: cover;
+  }
+
+  .video-panel {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .video-panel__video--container {
+    width: 69%;
+    position: relative;
+    padding-bottom: calc(56.25%*0.69);
+    height: 0;
+    overflow: hidden;
+
+  }
+
+  .video-panel__video {
+    width: 100%;
+    position: absolute;
+    height: 101%;
+  }
+
+  .video-panel__image--container {
+    width: 28.5%;
+    position: relative;
+  }
+
+  .video-panel__image {
+    width: 100%;
+  }
+
+  .caption__text {
+    font-size: 16px;
+    line-height: 20px;
+    font-stretch: 200%;
+    font-family: "StyreneA", "Arial";
+    font-weight: 600;
+    vertical-align: middle;
+  }
+
+  .pt1__ch2__header-slide {
+    width: calc(100%-80px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3vw 40px;
+    background-color: #F3E8E8;
+    max-width: 1350px;
+
+  }
+
+  .pt1__ch2__header-slide__title {
+    width: 49%;
+    height: auto;
+    text-align: center;
+  }
+
+  .pt1__ch2__header-slide__image--container {
+    width: 34%;
+    max-width: 455px;
+  }
+
+  .pt1__ch2__header-slide__image {
+    width: 100%;
+  }
+
+  .pt1__ch2__header-slide__caption {
+    align-self: flex-end;
+    width: 13%;
+  }
+
+  .highlight-caption-text {
+    color: #D68597;
+  }
+
+  .pt1__ch2__video-slide {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #F3E8E8;
+    justify-content: space-around;
+    max-width: 1600px;
+  }
+
+  .pt1__ch2__video-slide__videos {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+
+
+  .pt1__ch2__video-slide__caption {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pt1__ch2__video-slide__caption__text {
+    font-size: 2vw;
+    line-height: 1.25;
+    height: auto;
+    font-family: "Americana";
+  }
+
+  .pt1__ch2__video-slide__caption__play {
+    height: auto;
+  }
+
+  .pt1__ch2__video-slide__caption__play__text {
+    font-size: 1.125vw;
+    font-stretch: 200%;
+    font-family: "StyreneA", "Arial";
+    font-weight: 600;
+  }
+
+  .andrea-audio--playing {
+    display: none;
+  }
+
+  .andrea-audio--paused {
+    display: inline;
+  }
+
+  .pt1__ch2__video-slide__video--container--top {
+    height: 48%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .pt1__ch2__video-slide__video--container--bottom {
+    height: 48%;
+    margin-bottom: 25px;
+  }
+
+  .pt1__ch2__video-slide__video {
+    width: 100%;
+  }
+
+  .quote-slide {
+    width: 100%;
+    background-color: #F3E8E8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .quote-slide--inner {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .quote-slide__text {
+    width: 46%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-slide__text__quote--container {
+    margin-bottom: 25px;
+    width: 90%;
+  }
+
+  .quote-slide__text__quote {
+    font-size: 1.8vw;
+    line-height: 1.5;
+    font-family: "Americana";
+  }
+
+  .quote-slide__text__caption--container {
+    margin-bottom: 10px;
+  }
+
+  .quote-slide__text__caption {
+    font-size: 9px;
+  }
+
+  .quote-slide__image--container {
+    width: 46%;
+  }
+
+  .quote-slide__image {
+    width: 100%;
+  }
+
+
+  .quote-slide__volume {
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  svg.andrea-audio--playing circle {
+    fill: #000000 !important;
+  }
+
+  .pt1__ch2__ad {
+    background-image: url("https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-ad-2.jpg");
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 18%;
+    background-size: cover;
+    margin-bottom: 50px;
+
+  }
+
+  .pt1__ch4__header-slide {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F3E8E8;
+    max-width: 1350px;
+
+  }
+
+  .pt1__ch4__header-slide--inner {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .pt1__ch4__header-slide__image--container {
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  .pt1__ch4__header-slide__image {
+    width: 100%;
+  }
+
+  .pt1__ch4__header-slide__title--container {
+    width: 45%;
+    top: 8%;
+    left: 1%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .pt1__ch3__ad {
+    background-image: url("https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-ad-3.jpg");
+    width: 71%;
+    margin: 0 auto;
+    padding-bottom: 18.2%;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .features-header {
+    display: none;
+  }
+
+  /************************************************************/
+
+  /************************************************************/
+
+  /*1400 QUERYS  */
+
+  /************************************************************/
+
+  /************************************************************/
+
+  @media only screen and (max-width: 1600px) {
+    .pt1__ch1__header__caption {
+      font-size: 1vw;
+    }
+  }
+
+
+  /************************************************************/
+
+  /************************************************************/
+
+  /*1400 QUERYS  */
+
+  /************************************************************/
+
+  /************************************************************/
+
+  @media only screen and (max-width: 1400px) {
+    .header-slide__header {
+      font-size: 52px;
+    }
+
+    .pt1__ch1__header__caption {
+      font-size: 1vw;
+      line-height: 1.5vw;
+    }
+  }
+
+  /************************************************************/
+
+  /************************************************************/
+
+  /*1200 QUERYS  */
+
+  /************************************************************/
+
+  /************************************************************/
+
+  @media only screen and (max-width: 1200px) {
+    .pt1__ch2__video-slide__caption {
+      width: 40%
+    }
+
+    .pt1__ch2__video-slide__caption__text {
+      font-size: 2.5vw;
+    }
+
+    .pt1__ch2__video-slide__caption__play__text {
+      font-size: 14px;
+    }
+  }
+
+  /************************************************************/
+
+  /************************************************************/
+
+  /*1024 QUERYS  */
+
+  /************************************************************/
+
+  /************************************************************/
+
+  @media only screen and (max-width: 1024px) {
+    .header-slide__header {
+      font-size: 42px;
+    }
+
+
+    .pt1__ch2__header-slide {
+      position: relative;
+    }
+
+    .pt1__ch2__header-slide__image--container {
+      width: 43%;
+    }
+
+    .pt1__ch2__header-slide__caption {
+      position: absolute;
+      left: 56%;
+      top: 10%;
+    }
+
+    .highlight-caption-text {
+      color: #F3E8E8;
+    }
+
+  }
+
+  /************************************************************/
+
+  /************************************************************/
+
+  /*MOBILE QUERYS  */
+
+  /************************************************************/
+
+  /************************************************************/
+
+  @media only screen and (max-width: 768px) {
+
+    .body-text--container {
+      width: 80%;
+      min-width: 0px;
+    }
+
+    .gone {
+      display: none;
+    }
+
+    .intro__header {
+      flex-direction: column;
+    }
+
+    .intro__header--right {
+      width: 100%;
+    }
+
+    .intro__header--left {
+      width: 100%;
+    }
+
+
+    .pt1__ch1__header__text {
+      left: 100% !important;
+      transform: translateX(-50%);
+      top: 5%;
+      width: 50vw;
+    }
+
+    .pt1__ch1__header__image1--container {
+      width: 90%;
+      top: 30%;
+    }
+
+    .pt1__ch1__header__image2--container {
+      width: 90%;
+      margin-top: 130px;
+    }
+
+    .pt1__ch1__header__caption {
+      font-size: 11px;
+      width: 60%;
+      line-height: 14px;
+    }
+
+    .video-panel {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .video-panel__video--container {
+      width: 100%;
+      padding-bottom: 0%;
+      height: 90vw;
+      margin-bottom: 15px;
+    }
+
+    .video-panel__video {
+      transform: scale(2.0) translateX(-29%);
+      left: 50%;
+    }
+
+    .pt1__ch4 .video-panel__video {
+      transform: scale(2.0) translateX(-25%);
+
+    }
+
+    .video-panel__image--container {
+      width: 100%;
+    }
+
+    .pt1__ch2__header-slide {
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+    }
+    .pt1__ch2__header-slide__image--container {
+      width: 90%;
+    }
+
+    .pt1__ch2__header-slide__image--container {
+      width: 100%;
+      margin: 0px;
+    }
+
+    .pt1__ch2__header-slide__caption {
+      display: none;
+    }
+
+
+
+    .pt1__ch2__video-slide {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .pt1__ch2__video-slide__videos {
+      width: 90%;
+      margin-left: 0px;
+
+    }
+
+    .pt1__ch2__video-slide__video {
+      padding-left: 0px;
+    }
+
+    .pt1__ch2__video-slide__caption {
+      width: 80%;
+    }
+
+    .quote-slide--inner {
+      flex-direction: column-reverse;
+    }
+
+    .quote-slide__text {
+      width: 100%;
+    }
+
+    .pt1__ch2__video-slide__caption__text {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .pt1__ch2__video-slide__caption__play__text {
+      font-size: 16px;
+    }
+
+    .quote-slide__image--container {
+      width: 100%;
+    }
+
+    .quote-slide__volume {
+      width: 30px;
+      height: 30px;
+    }
+
+    .pt1__ch4__header-slide--inner {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pt1__ch4__header-slide__image--container {
+      height: 90vw;
+    }
+    .pt1__ch4__header-slide__image {
+      transform: scale(2) translate(0%, 20%);
+    }
+
+    .pt1__ch4__header-slide__title--container {
+      width: 90%;
+      position: relative;
+      top: unset;
+      left: unset;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="content-container full-width">
+  <div class="pt-1">
+    <div class="pt-1__intro">
+      <div class="intro__header">
+        <div class="intro__header--left">
+          <h3 class="header-slide__subheader">PART ONE</h3>
+          <h1 class="header-slide__header">DIANA<br>RAU<br>&<br>HER<br>SUPPORTING<br>CAST</h1>
+        </div>
+        <div class="intro__header--right">
+          <figure class="intro__header--right__image--container">
+            <img class="intro__header--right__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/diana-supporting-cast.jpg" alt="Diana Rau & her support cast" />
+          </figure>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text intro-text"><span class="body-text--intro">her supporting cast</span> is a two-part series that highlights the stories of two successful women enacting change, enriched by insights from their friends, family, and loved ones. In part one we tell the story
+          of Diana Rau, an Ohio-born entrepreneur who's always been action-oriented. Though her path hasn't been linear, her care and empathy have remained a constant force to those she's touched along the way.</p>
+      </div>
+    </div>
+
+
+
+
+
+    <!--  CHAPTER 1-->
+    <div class="pt1__ch1">
+      <div class="pt1__ch1__header">
+        <div class="pt1__ch1__header--half">
+          <div class="pt1__ch1__header__text">
+            <h3 class=header-slide__subheader>CHAPTER ONE</h3>
+            <h1 class="header-slide__header">A LEAP OF <br>FAITH</h1>
+          </div>
+          <div class="pt1__ch1__header__image1--container">
+            <image class="pt1__ch1__header__image1" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-1-left.jpg">
+          </div>
+        </div>
+        <div class="pt1__ch1__header--half">
+          <div class="pt1__ch1__header__image2--container">
+            <image class="pt1__ch1__header__image2" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-1-right.jpg">
+          </div>
+          <div class="pt1__ch1__header__caption">
+            <span class="pt1__ch1__header__caption__text">Daniel Rau<br><span style="color:#c16fab;">DIANA'S HUSBAND COFOUNDER OF<br>VETERATI</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-text--container">
+      <p class="body-text"><span class="body-text--intro">one evening in</span> August 2014, Daniel Rau, a former Marine still based in Afghanistan, went out on a limb and sent Diana Tsai a cold email on LinkedIn. With three successful startup ventures under her belt at 24
+        years old, Diana’s inbox was often overflowing with networking outreach — but in a sea of messages, Daniel’s stuck out.</p>
+      <p class="body-text">Daniel was drawn to Diana’s profile tagline at the time: <i>I don't do small talk.</i> And she wasn’t bluffing — she immediately asked Daniel for his 10 year vision plan. He didn’t have an answer, but quickly drafted one up, which landed him a Skype
+        call. “The call was something like a lightning storm — so many connections, ideas, and inspirations were just sparked through that conversation,” Daniel remembers. “There were these definite, immediate soul sparks, and connection on a different
+        level I had never felt before.”</p>
+    </div>
+    <div class="pt1__ch1__ad"></div>
+    <div class="body-text--container">
+      <p class="body-text">In eight months of near-constant correspondence, Daniel grew to become Diana’s “AI best friend,” the person who she found herself dreaming about the future with and eventually marrying in 2016. Diana was eager to learn all of the ins and outs of
+        Daniel’s post-military experience, the barriers affecting military-to-career transition, and how it connected to a greater community of veterans. “I learned that transitioning out of the military is not easy, and that veterans don't have a network
+        to lean on in the commercial world, in the fields they want to enter, and in the civilian world,” says Diana.</p>
+    </div>
+    <div class="video-panel">
+      <div class="video-panel__video--container">
+        <video loop class="video-panel__video video-daniel">
+            <source src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/fm-1-daniel.mp4" type="video/mp4">
+          </video>
+      </div>
+      <div class="video-panel__image--container">
+        <img class="video-panel__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-2-right-b.jpg" />
+      </div>
+    </div>
+    <div class="body-text--container">
+      <p class="body-text">Daniel didn’t know why Diana took such an interest in him, but her support was invaluable. It soon became clear that she wanted to do even more: the pair began discussing how to address this phenomenon, which impacts some 1.5 million American veterans.
+        “We started thinking about what we can do to create a digital platform that enables transitioning service members to succeed in their transition out of the military and onward into their professional life," Daniel says. Uninspired by her ventures
+        at the time (“I didn’t know if I was making a difference anymore,” she recalls), this was the spark that Diana had been searching for in her three years post-undergrad.</p>
+      <p class="body-text">In April 2015, the two finally met in person. Within two weeks, Daniel and Diana knew that their connection was real and that they were on to something: they quit their jobs, in Afghanistan and Shanghai respectively, to launch a startup called Veterati
+        in Los Angeles. “And since then, we've been working on Veterati, and have never looked back,” says Daniel. “It's really been an amazing journey.”</p>
+      <p class="body-text">But for Diana—not always a risk-taker—it was a bold move that required a then uncharacteristic leap of faith.</p>
+    </div>
+
+
+
+
+
+
+
+    <!--  CHAPTER 2-->
+    <div class="pt1__ch2">
+      <div class="pt1__ch2__header-slide ">
+        <div class="pt1__ch2__header-slide__title">
+          <h3 class=header-slide__subheader> CHAPTER TWO</h3>
+          <h1 class="header-slide__header"> GRACE UNDER PRESSURE</h1>
+        </div>
+        <div class="pt1__ch2__header-slide__image--container">
+          <img class="pt1__ch2__header-slide__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-3.jpg" alt="Grace under pressure" />
+        </div>
+        <div class="pt1__ch2__header-slide__caption">
+          <p class=caption__text>JANE TSAI<br><span class="highlight-caption-text">DIANA'S YOUNGER<br>SISTER</span></p>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text"><span class="body-text--intro">Diana was a</span> 16-year-old living in Arlington, Ohio when she answered her first call to action. A studious bookworm with boundless curiosity, Diana would check out 20-some library titles at a time and had always
+          been intrigued by distant worlds. After reading a 2007 Time Magazine feature about the Darfur genocide, she felt compelled to do something. “In Diana’s eyes, there was always someone who needed help,” her younger sister Jane says. “She wanted
+          to help everyone. And she wanted to change things.”</p>
+        <p class="body-text">Jane views Diana’s empathy for the people of Darfur as a natural outcome of their upbringing. Born to immigrant parents from nations in conflict (their father from Taipei and their mother from Shanghai), constant household debates exposed the
+          girls to dissent and international issues. But from a young age, Diana sought to turn words into action. “She spent that summer going door-to-door, washing peoples’ dogs, to raise that money,” Jane remembers. By her high school graduation, Diana
+          had raised thousands of dollars for Darfur refugee women. “That changed the way I looked at my sister,” says Jane. ”She could find such a small way to make a big difference.”</p>
+      </div>
+      <div class="pt1__ch2__video-slide">
+        <div class="pt1__ch2__video-slide__videos">
+          <div class="pt1__ch2__video-slide__video--container--top">
+            <video class="pt1__ch2__video-slide__video video-jane" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/fm-2-jane.mp4"></video>
+          </div>
+          <div class="pt1__ch2__video-slide__video--container--bottom">
+            <video class="pt1__ch2__video-slide__video video-diana" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/fm-3-diana.mp4"></video>
+          </div>
+        </div>
+        <div class="pt1__ch2__video-slide__caption">
+          <p class="pt1__ch2__video-slide__caption__text">“Diana has triumphed through immense amounts of pressure — she had to strike a balance between making our parents proud, doing everything right, being at her best, and being a good sister on top of everything.”</p>
+          <div class="pt1__ch2__video-slide__caption__play">
+            <p class="pt1__ch2__video-slide__caption__play__text">JANE TSAI, DIANA’S SISTER</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text">Diana went on to Georgetown's School of Foreign Service in 2008, with dreams of becoming a politician. “She was just this brilliant, shining star in our family,” Jane says. “And throughout, she had to strike a balance between making our parents
+          proud, doing everything right, being her best, and being a good sister on top of that.”</p>
+        <p class="body-text">It was a lot for an 18-year-old to handle, but Diana was a natural planner; she even had a 10 year vision plan of her own. She would soon find that the cards held something different.</p>
+      </div>
+      <div class="pt1__ch2__ad"></div>
+    </div>
+
+
+
+
+
+
+    <!--  CHAPTER 3-->
+    <div class="pt1__ch3">
+      <div class="pt1__ch1__header">
+        <div class="pt1__ch1__header--half">
+          <div class="pt1__ch1__header__text">
+            <h3 class=header-slide__subheader>CHAPTER THREE</h3>
+            <h1 class="header-slide__header">A NEW <br class="gone">VISION</h1>
+          </div>
+          <div class="pt1__ch1__header__image1--container">
+            <image class="pt1__ch1__header__image1" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-5-left.jpg">
+          </div>
+        </div>
+        <div class="pt1__ch1__header--half">
+          <div class="pt1__ch1__header__image2--container">
+            <image class="pt1__ch1__header__image2" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-5-right.jpg">
+          </div>
+          <div class="pt1__ch1__header__caption">
+            <span class="pt1__ch1__header__caption__text">BETH GOLDBERG, LEFT, AND</br> ANDREA FEREZCO<br><span style="color:#c16fab;">DIANA'S FRIENDS</span></span>
+          </div>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text"><span class="body-text--intro">In 2009, Diana</span> felt moved to relocate to Shanghai, studying abroad at East China Normal University after completing an internship with the Department of Education as a politics student. Diana called it an
+          “existential crisis.” “By her second year of college, Diana was starting to realize that traditional institutions and traditional ways of learning and of doing were not going to be a fit for her,” her friend Beth Goldberg said</p>
+        <p class="body-text">As a student in Shanghai, Diana found herself spending more time in Guang Fu Xi Lu, a low-income neighborhood behind her university, than in the classroom. Now mostly displaced by governmental renewal projects, the people lived in densely packed,
+          poorly maintained housing with no running water. There, she rooted herself in the community and listened to elders tell stories about the Mao era — she noticed that many of them had cataracts. It was from there, at 19, that Diana launched her
+          first of two social impact ventures in China, Blublockers. The startup </p>
+      </div>
+      <div class="quote-slide">
+        <div class="quote-slide--inner">
+          <div class="quote-slide__text">
+            <div class="quote-slide__text__quote--container">
+              <p class="pt1__ch2__video-slide__caption__text">“Diana is very solutions-focused so there will never be a time where she identifies a problem, whether it's some massive high-level world issue, or something in her personal life, and sits back and does nothing about it.”</p>
+            </div>
+            <div class="quote-slide__text__caption--container">
+              <p class="pt1__ch2__video-slide__caption__play__text">ANDREA FERZOCO, DIANA'S FRIEND<br></p>
+            </div>
+            <div class="quote-slide__volume andrea-audio--button">
+              <svg class="andrea-audio--playing" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <defs>
+                  <style>
+                  .cls-1{
+                    fill:#1c1c1c;
+                  }
+                  .cls-2{
+                    fill:#f6f1f1;
+                  }
+                </style>
+              </defs>
+                <title>Asset 2</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="text">
+                  <circle class="cls-1" cx="20" cy="20" r="20"/>
+                  <path class="cls-2" d="M19.29,26a.72.72,0,0,1-.71.71.7.7,0,0,1-.5-.22l-3.69-3.68h-2.9a.72.72,0,0,1-.71-.71V17.87a.72.72,0,0,1,.71-.71h2.9l3.69-3.68a.7.7,0,0,1,.5-.22.72.72,0,0,1,.71.71Zm2.54-3.43a.57.57,0,0,1-.28.06.71.71,0,0,1-.71-.71c0-.84,1.29-.61,1.29-1.95s-1.29-1.11-1.29-1.95a.71.71,0,0,1,.71-.71.57.57,0,0,1,.28.06,2.83,2.83,0,0,1,0,5.2ZM23,25.22a.92.92,0,0,1-.28.05.71.71,0,0,1-.29-1.36,5,5,0,0,0,.84-.49,4.23,4.23,0,0,0,0-6.84,5,5,0,0,0-.84-.49.71.71,0,0,1,.28-1.36.93.93,0,0,1,.29,0,5.69,5.69,0,0,1,0,10.44Zm1.12,2.6a.94.94,0,0,1-.29.06.71.71,0,0,1-.28-1.37c.16-.08.33-.14.5-.23a8.55,8.55,0,0,0,.91-.56,7.11,7.11,0,0,0,0-11.44,8.55,8.55,0,0,0-.91-.56c-.17-.09-.34-.15-.5-.23a.71.71,0,0,1,.28-1.37.94.94,0,0,1,.29.06,8.51,8.51,0,0,1,0,15.64Z"/></g></g></svg>
+              <svg class="andrea-audio--paused" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                <defs>
+                  <style>.cls-1{fill:#d68597;}.cls-2{fill:#f6f1f1;}</style>
+                </defs>
+                <title>Asset 1</title>
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="text"><circle class="cls-1" cx="20" cy="20" r="20"/>
+                <path class="cls-2" d="M22.13,26a.72.72,0,0,1-.71.71.68.68,0,0,1-.5-.22l-3.69-3.68h-2.9a.72.72,0,0,1-.71-.71V17.87a.72.72,0,0,1,.71-.71h2.9l3.69-3.68a.68.68,0,0,1,.5-.22.72.72,0,0,1,.71.71Zm2.53-3.43a.51.51,0,0,1-.27.06.71.71,0,0,1-.71-.71c0-.84,1.28-.61,1.28-1.95s-1.28-1.11-1.28-1.95a.71.71,0,0,1,.71-.71.51.51,0,0,1,.27.06,2.83,2.83,0,0,1,0,5.2Z"/></g></g></svg>
+              <audio class="andrea-audio" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/andrea-v2.wav"></audio>
+            </div>
+          </div>
+          <div class="quote-slide__image--container">
+            <img class="quote-slide__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-6.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text">funded approximately 200 cataract surgeries for the low-income elderly of Shanghai, through sunglass sales — a feat she accomplished while juggling a full course load. “Diana is very solutions-focused so there will never be a time where she identifies
+          a problem, whether it's some massive high-level world issue, or something in her personal life, and sits back and does nothing about it,” her friend Andrea Ferzoco said. “She's solutions-based.”</p>
+        <p class="body-text">After completing school, Diana launched another platform in 2012, BUNDSHOP, which empowered emerging Chinese design brands. Working with a team of millennials building expertise from the ground up, Diana’s startup was a success, receiving widespread
+          press and acclaim. She had grown into her calling – in that critical moment, she recognized that in order to help others, risk taking felt more on par than a preplanned blueprint.</p>
+        <p class="body-text">“By the last year and a half of college, Diana was just doing her own thing already,” Goldberg said. “And she definitely carried on that entrepreneurial spark and fostered it in a beautiful way.”</p>
+      </div>
+      <div class="pt1__ch3__ad"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--  CHAPTER 4-->
+    <div class="pt1__ch4">
+      <div class="pt1__ch4__header-slide">
+        <div class="pt1__ch4__header-slide--inner">
+          <div class="pt1__ch4__header-slide__title--container">
+            <h3 class=header-slide__subheader>CHAPTER FOUR</h3>
+            <h1 class="header-slide__header">A FORCE OF <br>NATURE</h1>
+          </div>
+          <div class="pt1__ch4__header-slide__image--container">
+            <img class="pt1__ch4__header-slide__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-4-bottom.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text"><span class="body-text--intro">On the evening</span> of February 24, 2015, Jaime Lima was driving with his cousin through a blizzard in Colorado. Just four days after his terminal leave from his post as a Marine was granted, he was trekking cross
+          country to Boise, ID to make the birth of his first son. The pair pulled up to a hotel for the night, and while Lima’s cousin dozed off, he began poking around on the internet — on top of all of these transitions, Lima was jobless and unsure
+          of what was next.“I had a zillion things going through my head,” Lima said. “I had no idea what I was gonna do next with my life.’"</p>
+        <p class="body-text">Lima entered a chatroom, where he first encountered Diana. She was anonymously coaching Lima on Veterati’s pre-launch experimental platform, throwing around ideas on how he can jump start his career post-service. “Diana had zero expectations,
+          she was just reaching out and asking me, "Hey, what can I do for you?" Lima said.</p>
+        <p class="body-text">Two days after the birth of his son, the Raus reached back out to Lima and began helping him lay career foundations. After meeting a key mentor and receiving his certification Lima has grown to become a financial services professional for New
+          York Life, a feat that he didn’t anticipate post service. “If you told me this is where I’d be five years ago, I would’ve laughed,” Lima said. “I want my peers who are transitioning to know the value of being able to reach out to these people:
+          CEOs, people in fields like philanthropy, surveillance, and human resources. Veterati’s changed my life, and it’s a beautiful thing.”</p>
+      </div>
+      <div class="video-panel">
+        <div class="video-panel__video--container">
+          <video class="video-panel__video video-jamie" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/fm-4-jaime.mp4"></video>
+        </div>
+        <div class="video-panel__image--container">
+          <img class="video-panel__image" src="https://cdn.theatlantic.com/assets/media/files/rethink/2018/forevermark/forevermark-dr-9-right-b.jpg" />
+        </div>
+      </div>
+      <div class="body-text--container">
+        <p class="body-text">It’s stories like Lima’s that continue to propel Diana forward and ground her in her cause — at just 28 years old, Diana’s company has grown to work with partners like Amazon, Verizon, and USO, and has facilitated free mentoring connections for
+          over 10,000 users. The couple married in September 2016, and in 2018, Diana was named a 2018 Forbes 30 Under 30 Social Entrepreneur.</p>
+        <p class="body-text">But for Diana, Veterati’s success isn’t measured in profits or metrics, but in the number of lives it transforms. When asked about the next 10 year vision plan from here, Diana made a major admission — she’s since retired that concept.</p>
+        <p class="body-text">“Diana is a normal woman who is superhuman — [she] has the full range of human emotions — anxieties, hopes, fears and dreams — and yet, she continues to amaze me with her ability to put aside those fears and work through her emotions in order
+          to pursue those hopes and dreams,” Daniel said. “I believe that is an inspirational characteristic that people should really get; Diana does incredible things, but still is just like me and you.”
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  applyToClass($(".video-panel__video"), scrollPlay)
+  applyToClass($(".pt1__ch2__video-slide__video"), scrollPlay);
+  clickAudio(".andrea-audio--button", ".andrea-audio", ".andrea-audio--playing", ".andrea-audio--paused");
+
+  function clickAudio(element, audio, playing, paused) {
+    var $button = $(element);
+    var audio = document.getElementsByClassName(audio.slice(1))[0];
+    var active = false;
+    audio.addEventListener("ended", reset);
+
+    $button.click(function() {
+      if (!active) {
+        $(paused).css("display", "none");
+        $(playing).css("display", "inline");
+        active = true;
+        audio.play();
+      } else {
+        reset()
+        audio.pause();
+      }
+    });
+
+    function reset() {
+      $(playing).css("display", "none");
+      $(paused).css("display", "inline");
+      active = false;
+    }
+  }
+
+
+
+
+  function scrollPlay(element) {
+    var video = element.className;
+    var spacePos = video.indexOf(" ");
+    var video = "." + video.slice(spacePos + 1);
+    var vid = document.getElementsByClassName(video.slice(1))[0];
+    var noticed = false;
+
+    if (inView.is(vid) && !noticed) {
+      vid.play();
+      noticed = true;
+    }
+
+    inView(video).on('enter', function() {
+      vid.play();
+    });
+  }
+
+
+  //This is a image wrapper function. The container must be tight on the image.
+  function setPaddingBottom(image) {
+    var $img = $(image);
+    var $container = $img.parent();
+    $container.css("position", "relative");
+    $img.css("position", "absolute");
+    $img.css("top", "0");
+    $img.css("left", "0");
+    $img.css("width", "100%");
+    var width = $img.width();
+    var height = $img.height();
+    $container.css("height", "0");
+
+    var containerParentWidth = $container.parent().width();
+    var containerWidthPercentage = ($container.width() / containerParentWidth);
+    var paddingBottom = ((100 * (height / width)));
+    paddingBottom = paddingBottom * containerWidthPercentage;
+
+    paddingBottom = paddingBottom + "%";
+    $container.css("padding-bottom", paddingBottom);
+  }
+
+  function classSwapOnView(item, preClass, postClass, bound, size) {
+    var $item = $(item);
+    var $window = $(window);
+    var width = size;
+
+    function classSwap() {
+      if (bound == "max") {
+        if ($window.width() <= width) {
+          $item.addClass(postClass);
+          $item.removeClass(preClass);
+        } else {
+          $item.addClass(preClass);
+          $item.removeClass(postClass);
+        }
+      } else {
+        if ($window.width() >= width) {
+          $item.addClass(postClass);
+          $item.removeClass(preClass);
+        } else {
+          $item.addClass(preClass);
+          $item.removeClass(postClass);
+        }
+      }
+    }
+
+    function onPageLoad() {
+      classSwap();
+      console
+      $window.resize(function() {
+        classSwap();
+      });
+    }
+
+
+    var returnable = {
+      classSwap: onPageLoad
+    }
+
+    return returnable;
+  }
+
+  function applyToClass(id, func) {
+    id.each(function(i, img) {
+      func(img);
+    });
+  }
+</script>
+</body>
